@@ -1,0 +1,12 @@
+
+##Config Files
+**/desktop.ini
+
+##Backup Files
+**/*.bak
+*.bak
+
+##Python builds
+__pycache__
+**/__pycache__
+

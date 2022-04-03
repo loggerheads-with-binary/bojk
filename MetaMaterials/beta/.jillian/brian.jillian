@@ -1,0 +1,50 @@
+Abspaths:
+  chae: '{Anton}/Anaconda/Lib/site-packages/Chaeyoung'
+  chaeyoung: '{Anton}/Anaconda/Lib/site-packages/Chaeyoung'
+  nint: '{Anton}/Anaconda/Lib/site-packages/nint'
+  quinn: '{Anton}/Anaconda/Lib/site-packages/Quinn'
+  rose: '{Candace}/Users/hp/Desktop/Quintessentials'
+  term: '{Lois}/Personals/Sienna Container/TerminalBGs'
+  terminal: '{Lois}/Personals/Sienna Container/TerminalBGs'
+  vera: '{Anton}/Anaconda/Lib/site-packages/Vera_Mount'
+Batfile: '{Anton}/Custom/lbrian.cmd'
+Cache: '{Lois}/Toolkit/Extra/Brian/MetaMaterials/beta/.bojk/brian.bojk'
+Command_Failsafe: true
+Defpath: '{Lois}/Toolkit'
+Relpaths:
+  .: .
+  ..: ..
+  ahk: Extra/Autohotkey
+  ananya: Extra/Ananya
+  autohotkey: Extra/Autohotkey
+  beta: Brian/MetaMaterials/beta
+  blaine: Extra/Blaine
+  blaine.rust: Extra/Blaine/Blaine.Rust
+  brian: Extra/Brian
+  custom: Custom
+  dtte: Extra/DTTE
+  elsa: Extra/.frozen + .ruins
+  enlister: Extra/Enlist
+  estela: Extra/FileMove/Estela-Calculator
+  extra: Extra
+  filemove: Extra/FileMove
+  fmove: Extra/FileMove
+  glob: Extra/Filemove/glob
+  joe: Extra/Joe Check
+  lazy: Extra/Lazy
+  meta: Extra/Brian/MetaMaterials
+  monogram: Extra/Monogram [SUDO]
+  notif: Extra/Notification
+  notif.rust: Extra/Notification/notif.rust
+  owca: Extra/Monogram [SUDO]
+  rangen: Extra/Rangen
+  reg: System/Registry Backups
+  res: Extra/Resources
+  sana: Extra/Perry/SanaDatabase
+  skye: Extra/Skye
+  stewie: Extra/FileMove/Wendy
+  system: System
+  ucopy: Extra/FileMove/UnivCopy
+  wendy: Extra/FileMove/Wendy
+  yumiko: Extra/FileMove/sendto-GUI
+Return_Index: 5

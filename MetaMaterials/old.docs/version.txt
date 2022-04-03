@@ -1,0 +1,20 @@
+
+Name: Brian on Jillian Kernel [BOJK]
+Version: 2.0.0
+
+Summary:    Brian on Jillian Kernel or BOJK is a master program to change directories with multiple features
+            [Try the argument `-u` to get more info on that]
+
+            Arguments can be passed through using the terminal.
+            A configuration file is necessary for proper use of BOJK.
+
+Author: Aniruddh "Anna" Radhakrishnan
+Author-email: aniruddh.iitb.92@protonmail.com
+License: GNU GPL-3
+Location: {path_}
+Requires: RapidFuzz, Scandir, Termtables, Argparse, Termcolor , Colorama, PyYAML
+Required-by: Brian's Sister Programs: Carl, Cherry, Isabella
+
+Associated Filetypes:
+        Cache - Binary Pickle File : "*.bojk"
+        Configuration - YAML Syntactic File : "*.jillian"

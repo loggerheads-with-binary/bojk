@@ -1,0 +1,42 @@
+BOJK, or Brian on Jillian Kernel now has no Kernel. In fact the name stands only for historic reasons.
+
+BOJK started as a batch file based program in August 2020. Now however, it runs on a special syntactic manner. -> Python handles the logic, the results are then written into a shell file ex. .sh or .cmd file. Which handles the shell results
+
+Start BOJK by using the command `bojk -g`, it generates a sample configuration file using the YAML syntax. Check below for what the terms in the sample template mean. 
+
+Some important terms in the YAML like configuration file:
+
+
+1. Defpath: Defpath stands for Default Path. It is meant to be the default starting point for the program. If you run searches using the program, defpath is where the directories are searched. Similarly, relpaths(check below) are defined with respect to the defpath. Ex: Defpath: '/mnt/f'
+
+2. Abspaths: A set of absolute paths for the program. Here, you can store absolute directory paths regardless of the defpath. Ex: 'try1':'/mnt/f/Personals/Media/Images'. Here try1 is the alias to the path, which you will enter while running the program. 
+
+3. Relpaths: A set of paths relative to the defpath. Ex: 'rel1' : 'Personals/Images/Media' , here the alias is rel1, and the relative path is Personals/Images/Media, when the program renders the directory, it will be rendered in full. 
+
+Note, relpath and abspath aliases are case insensitive. There is no predefined way to change this. The entire purpose of simplifying opening directories fails when you have thousand commands like RRR111 and rrr111, hence the program is case insensitive. Also the aliases by default have to be strings. If you areusing integer aliases, put them in quotes, like '111' : '<PATH HERE>'. Only string aliases can be parsed. 
+
+Also, do not use same aliases for relpaths and abspaths. The program searches the abspaths first and will render the directory. This makes the relpaths sectrtion ineffective. 
+
+
+4. Batfile: The final command line shell file(.sh/.cmd/.ps1) file where the final outputs have to be written. 
+
+5. Return_Index: How many search items to be returned. Similar to pages rendered by google in some  sense.
+
+6. Command_Failsafe: If you enter a slightly mistaken alias, for example rel11 instead of rel1, command failsafe set to true realises your error and renders the most plausible alias. You have the option to select yes or no. If set to false, wrong aliases are rendere ineffective. 
+
+<ACTION>s :
+
+<DEFAULT WITHOUT ANY FLAG> : Changes directory to the rendered directory
+-o : Opens the directory in the default GUI viewer 
+-so : Opens the directory in GUI and changes directory to this directory.  
+
+
+Using Brian on Jillian Kernel:
+
+1. For Version Details: Check your BOJK Details with bojk -v 
+
+2. For checking command aliases:
+	For this you need a configuration file written in YAML syntax. If you have not written one yet, just start with bojk -g, it writes a template file config.jillian in the current working directory. The extension .jillian is the default extension, only meant to clarify to users that it is indeed a configuration file for the program. Once you create the template, start writing command aliases for relpaths(paths relative to a fixed defpath) and abspaths(absolute paths) 
+Ex: Let's say you have written an abspath 'try1' : '/mnt/f/Personals/Media/Images', use the syntax: bojk -c try1 <ACTION> to render the directory. The -c <COMMAND_ALIAS> flag works also for relpaths. 
+
+3. -s Flag: Accepts one argument, which is the search term.And searches for a directory matching with the names in the defpath. You can set an additional flag -fp to get 

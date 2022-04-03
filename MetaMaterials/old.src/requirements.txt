@@ -1,0 +1,12 @@
+inquirer 
+#logging 
+coloredlogs 
+argparse 
+pyyaml 
+termcolor 
+colorama 
+termtables 
+rapidfuzz 
+scandir 
+ipython 
+pyperclip 

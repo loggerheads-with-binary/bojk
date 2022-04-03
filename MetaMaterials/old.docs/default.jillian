@@ -1,0 +1,29 @@
+
+Defpath: "C:\\"
+#The Default Search Path. Store as a python standard string with \\ for \ , etc
+
+Return_Index : 5
+#The Return Index for the Search Engine Functionality. Shows only the first [Return_Index] results
+
+Abspaths:
+    "" : ""
+    #YAML just doesn't have any option to generate a blank dictionary
+
+    #Should be a dictionary with command and paths here
+
+
+
+#Note that for the same command in both abspaths and relpaths, abspaths will be preferred. Also it's a good practice to not repeat command keys.
+Relpaths:
+    . : "."
+    .. : ".."
+    #Should be paths relative to the given defpath
+
+Failsafe: True
+    #Only prints exception and exits on true, shows traceback on false
+
+Command_Failsafe : False
+    #If command is slightly wrong, it works to correct the same if true using Rapidfuzz Search Engine
+
+Batfile: "C:\\brian.bat"
+    #Use Absolute path to the batchfile for writing

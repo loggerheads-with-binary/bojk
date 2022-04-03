@@ -1,0 +1,32 @@
+Abspaths:
+  random: '{Sienna}/Container-Main/.random-pics/'
+  rp: '{Sienna}/Container-Main/Roleplay'
+  sienna: '{Sienna}/Container-Main'
+  stewie: '{Candace}/Users/hp/Pictures/Stewie'
+Batfile: '{Anton}/Custom/lbrian.cmd'
+Cache: '{Lois}/Toolkit/Extra/Brian/MetaMaterials/beta/.bojk/cherry.bojk'
+Command_Failsafe: true
+Defpath: '{Tzuyu}/Personals'
+Relpaths:
+  .: .
+  ..: ..
+  adam: Adam Rhea
+  brian: Browse/Brian
+  browse: Browse
+  cherry: Fem/Cherry Torn
+  choices: Choices Edits
+  eleanor: Eleanor
+  family: Family Work
+  fem: Fem
+  femdom: Fem/Femdom
+  ig: Eleanor
+  ig-old: Instagram-Download-Test
+  kpop: Kpop
+  perse: Fem/Lady Perse
+  photos: Photographs
+  reddit: Reddit_Media
+  screens: Screenshots
+  term: Sienna Container/TerminalBGs
+  watt: Wattpad
+  wattpad: Wattpad
+Return_Index: 5

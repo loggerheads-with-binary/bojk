@@ -1,0 +1,26 @@
+
+
+
+
+
+
+Defpath : "{Brian-Drive}"
+##The Default Search Path. Remember this is a Chaeyoung Translable Path 
+
+Return_Index : 5 
+#The Return Index for the Search Engine Functionality. Shows only the first [Return_Index] results
+
+Abspaths : {}
+##Just absolute paths will be put here. They should be in Chaeyoung Syntax
+
+Relpaths : 
+  . : "."
+  .. : ".."
+##Paths relative to the defpath come over here. Note, ./relpath , /relpath , ./relpath/ , relpath/ etc will be treated similarly.  
+Command_Failsafe: True 
+
+Batfile : "{Lois}/Toolkit/Custom/lbrian.cmd"
+
+Cache : "{Lois}/Toolkit/Extra/Brian/MetaMaterials/Config/Directories.bojk"
+##The Default Cache File. Note; this is best suited with a .bojk extension for easier use 
+##The file can be overwritten on the command line using the --cache-file option. This is done so that multiple caches of a defpath can be created 

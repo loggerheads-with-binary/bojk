@@ -1,0 +1,15 @@
+BOJK, or Brian on Jillian Kernel now has no Kernel. In fact the name stands only for historic reasons.
+
+Using Brian on Jillian Kernel:
+
+
+
+
+Commands:
+        Commands are stored in the BOJK's yaml file
+        You certainly have to provide the yaml file using the '-y' command :  [  <Path to bojk.exe> -y <Path to YAML File> ]
+        Use: [  <Path to bojk.exe> -y <Path to YAML File>  -f ]  to obtain all the commands available
+
+        Use [   <Path to bojk.exe> -y <Path to YAML File> -c <Command> {Other Options} ] to work with the directory associated with the command
+
+Document in Progress
